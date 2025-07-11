@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechCircuito - Loja</title>
+  <link rel="stylesheet" href="Projeto_HTML/styles.css">
+  <link rel="shortcut icon" href="Projeto_HTML/favicon.jpg" type="image/x-jpg">
+</head>
+<body>
+  
+  <header>
+    <h1>TechCircuito - Componentes Eletrônicos</h1>
+    <a id="cart-link" class="cart-link">Ver Carrinho</a>
+  </header>
+
+  <main id="products-page" class="page active">
+    <div id="vertical-products">
+      <div class="vertical-image">
+        <img src="Projeto_HTML/vertical-image.jpg" alt="Imagem Vertical">
+      </div>
+      <div class="vertical-products-content">
+        <div class="product-card">
+          <img src="Projeto_HTML/produto1.png" alt="Produto 1">
+          <p>
+            O Arduino UNO é a melhor placa para começar com eletrônica e codificação. Se esta é sua primeira experiência mexendo na plataforma, o UNO é a placa mais robusta com a qual você pode começar a jogar.
+          </p>
+          <p>Valor: <strong>R$ 100,00</strong></p>
+          <a href="#" class="btn add-to-cart-main" data-id="1">Comprar</a>
+        </div>
+        <div class="product-card">
+          <img src="Projeto_HTML/produto2.png" alt="Produto 2">
+          <p>
+            O Arduino Mega 2560 é uma placa microcontroladora baseada no ATmega2560. Possui 54 pinos de entrada/saída digital, 16 entradas analógicas e 4 UARTs.
+          </p>
+          <p>Valor: <strong>R$ 175,00</strong></p>
+          <a href="#" class="btn add-to-cart-main" data-id="2">Comprar</a>
+        </div>
+        <div class="product-card">
+          <img src="Projeto_HTML/produto3.png" alt="Produto 3">
+          <p>
+            O Arduino Nano 33 IoT é o ponto de entrada mais fácil e barato para aprimorar os dispositivos existentes e projetar aplicativos de pico-rede.
+          </p>
+          <p>Valor: <strong>R$ 120,00</strong></p>
+          <a href="#" class="btn add-to-cart-main" data-id="3">Comprar</a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="imagem6">
+      <div class="imagem6-content">
+        <img src="Projeto_HTML/imagem6.jpg" alt="Imagem 6">
+      </div>
+    </div>
+    
+    <div id="quad-section">
+      <div class="quad-item">
+        <img src="Projeto_HTML/imagem7.png" alt="Imagem 7">
+        <p>
+          Conheça a única placa RP2040 conectada. O cérebro da placa é o silício Raspberry Pi® RP2040; um córtex® ARM® dual-core M0+ rodando a 133 MHz.
+        </p>
+        <p>Valor: <strong>R$ 270,00</strong></p>
+        <a href="#" class="btn add-to-cart-main" data-id="4">Comprar</a>
+      </div>
+      <div class="quad-item">
+        <img src="Projeto_HTML/imagem8.png" alt="Imagem 8">
+        <p>
+          Apresentando o Nano ESP32, uma adição poderosa ao ecossistema Arduino que traz o popular ESP32-S3 para o mundo da programação Arduino e MicroPython.
+        </p>
+        <p>Valor: <strong>R$ 300,00</strong></p>
+        <a href="#" class="btn add-to-cart-main" data-id="5">Comprar</a>
+      </div>
+      <div class="quad-item">
+        <img src="Projeto_HTML/imagem9.png" alt="Imagem 9">
+        <p>
+          O Arduino Nano 33 BLE Sense Rev2 é a placa habilitada para IA de 3.3 V do Arduino no menor formato disponível com um conjunto de sensores embarcados.
+        </p>
+        <p>Valor: <strong>R$ 360,00</strong></p>
+        <a href="#" class="btn add-to-cart-main" data-id="6">Comprar</a>
+      </div>
+      <div class="quad-item">
+        <img src="Projeto_HTML/imagem10.png" alt="Imagem 10">
+        <p>
+          O Arduino Nano 33 BLE é uma placa com sensor inercial de 9 eixos, ideal para dispositivos vestíveis e comunicação sem fio de curta distância.
+        </p>
+        <p>Valor: <strong>R$ 420,00</strong></p>
+        <a href="#" class="btn add-to-cart-main" data-id="7">Comprar</a>
+      </div>
+    </div>
+  </main>
+
+  <section id="cart-page" class="page">
+    <div class="container">
+      <h1>Meu Carrinho</h1>
+      <div class="cart-items">
+        <div id="selected-product-list"></div>
+      </div>
+      <div class="total-section">
+        <h2 id="total-price">TOTAL: R$ 0,00</h2>
+        <button id="checkout-btn" class="btn">FINALIZAR COMPRAS</button>
+        <button id="continue-shopping-btn" class="btn btn-secondary">Continuar Comprando</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="form-page" class="page">
+    <div class="container">
+      <h1>Formulário de Compra</h1>
+      <form class="checkout-form" id="checkout-form">
+        <h2>Informações de Contato e Entrega</h2>
+        <label for="name">Nome Completo:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <h2>Endereço de Entrega</h2>
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" name="cep" required>
+        <label for="address">Endereço:</label>
+        <input type="text" id="address" name="address" required>
+        <label for="number">Número:</label>
+        <input type="text" id="number" name="number" required>
+        <label for="city">Cidade:</label>
+        <input type="text" id="city" name="city" required>
+        <label for="state">Estado:</label>
+        <input type="text" id="state" name="state" required>
+        <button type="submit" class="btn">Ir para formas de pagamento</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="payment-page" class="page">
+    <div class="container">
+      <h1>FORMAS DE PAGAMENTO</h1>
+      <div class="payment-options">
+        <div class="payment-method">
+          <h3>Boleto</h3>
+          <img src="Projeto_HTML/boleto.png" alt="Código de Barras para pagamento" class="payment-img">
+        </div>
+        <div class="payment-method">
+          <h3>Pix</h3>
+          <img src="Projeto_HTML/pix-qrcode.png" alt="QR Code para pagamento com Pix" class="payment-img">
+        </div>
+      </div>
+      <button class="btn" id="simulate-payment-btn">Simular Pagamento Concluído</button>
+    </div>
+  </section>
+
+  <div id="popup-overlay" class="popup-overlay">
+    <div class="popup-content">
+      <h2>Pagamento Concluído!</h2>
+      <p>Seu pedido foi processado com sucesso.</p>
+      <p><strong>Código de Rastreio:</strong></p>
+      <p id="tracking-code"></p>
+      <button id="close-popup-btn" class="btn">Fechar</button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      Termo de Uso | Política de Privacidade | TechCircuito | Todos os Direitos Reservados | CNPJ: 01.102.256/6982-00-3
+    </div>
+  </footer>
+
+  <script src="Projeto_HTML/script.js" defer></script>
+</body>
+</html>
