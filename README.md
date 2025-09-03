@@ -7,7 +7,7 @@ Este projeto foi desenvolvido como parte das atividades da disciplina de **Intro
 O vídeo a seguir demonstra o fluxo completo de navegação do usuário no site, desde a escolha dos produtos até a finalização da compra.
 
 <div align="center">
-  <video src="assets/video.mp4" controls="controls" style="max-width: 800px;"></video>
+  <video src="https://github.com/user-attachments/assets/5b3e1ca9-8795-447a-85f9-1463f392b69d" controls="controls" style="max-width: 800px;"></video>
 </div>
 
 ## Funcionalidades Principais
@@ -44,7 +44,7 @@ A seguir, algumas capturas de tela que ilustram as principais seções do site.
 
 #### Confirmação de Pagamento
 *Descrição: Modal exibido após a conclusão bem-sucedida do pedido.*
-![Confirmação de Pagamento](https://github.com/user-attachments/assets/cc826ef5-eee2-4d42-9b16-00025cd33653))
+![Confirmação de Pagamento](https://github.com/user-attachments/assets/cc826ef5-eee2-4d42-9b16-00025cd33653)
 
 ## Tecnologias Utilizadas
 
