@@ -56,8 +56,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias web:
 
 ## Como Executar o Projeto
 
-Este projeto é uma aplicação front-end pura. Para executá-lo, siga os passos abaixo.
-
 1.  **Clone o repositório:**
     *(Substitua a URL abaixo pela URL real do seu repositório)*
     ```bash
