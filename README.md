@@ -1,4 +1,4 @@
-# Projeto ITWeb: E-commerce TechCircuito
+# Projeto INTW: E-commerce TechCircuito
 
 Este projeto foi desenvolvido como parte das atividades da disciplina de **Introdução as Tecnologias Web**. Trata-se de uma aplicação front-end que simula uma loja virtual completa para a venda de componentes eletrônicos, como placas Arduino e dispositivos para IoT (Internet of Things).
 
