@@ -57,7 +57,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias web:
 ## Como Executar o Projeto
 
 1.  **Clone o repositório:**
-    *(Substitua a URL abaixo pela URL real do seu repositório)*
     ```bash
     git clone (https://github.com/DevJeanVitor/Projeto_E-commerce.git)
     ```
