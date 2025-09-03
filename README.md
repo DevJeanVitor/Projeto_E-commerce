@@ -4,7 +4,7 @@ Este projeto foi desenvolvido como parte das atividades da disciplina de **Intro
 
 ## Demonstração em Vídeo
 
-O GIF a seguir demonstra o fluxo completo de navegação do usuário no site, desde a escolha dos produtos até a finalização da compra.
+O vídeo a seguir demonstra o fluxo completo de navegação do usuário no site, desde a escolha dos produtos até a finalização da compra.
 
 <div align="center">
   <video src="assets/video.mp4" controls="controls" style="max-width: 800px;"></video>
@@ -32,19 +32,19 @@ A seguir, algumas capturas de tela que ilustram as principais seções do site.
 
 #### Página Inicial (Vitrine de Produtos)
 *Descrição: A página principal exibe os produtos disponíveis para compra.*
-![Página Inicial]([assets/home.png](https://github.com/user-attachments/assets/7aa4456f-7a03-4787-a825-b20778bc9401))
+![Página Inicial](https://github.com/user-attachments/assets/7aa4456f-7a03-4787-a825-b20778bc9401)
 
 #### Carrinho de Compras
 *Descrição: O carrinho permite ao usuário visualizar e gerenciar os produtos selecionados antes de finalizar a compra.*
-![Carrinho de Compras]([assets/carrinho.png](https://github.com/user-attachments/assets/3dd8325d-6bee-4efb-83ea-67fb3accd664))
+![Carrinho de Compras](https://github.com/user-attachments/assets/3dd8325d-6bee-4efb-83ea-67fb3accd664)
 
 #### Formulário de Compra (Checkout)
 *Descrição: Etapa onde o usuário insere seus dados para contato e entrega.*
-![Formulário de Checkout]([assets/checkout.png](https://github.com/user-attachments/assets/e67733a3-f65b-41c5-8b26-04a2a02bf72c))
+![Formulário de Checkout](https://github.com/user-attachments/assets/e67733a3-f65b-41c5-8b26-04a2a02bf72c)
 
 #### Confirmação de Pagamento
 *Descrição: Modal exibido após a conclusão bem-sucedida do pedido.*
-![Confirmação de Pagamento]([assets/confirmacao.png](https://github.com/user-attachments/assets/cc826ef5-eee2-4d42-9b16-00025cd33653))
+![Confirmação de Pagamento](https://github.com/user-attachments/assets/cc826ef5-eee2-4d42-9b16-00025cd33653))
 
 ## Tecnologias Utilizadas
 
@@ -76,5 +76,5 @@ Este projeto foi desenvolvido por: **Jean Vítor**.
 
 
 
-- [LinkedIn](https://www.linkedin.com/in/seu-usuario-do-linkedin/)
-- [GitHub](https://github.com/seu-usuario-do-github)
+- [LinkedIn](https://www.linkedin.com/in/devjvs/)
+- [GitHub](https://github.com/DevJeanVitor)
