@@ -73,5 +73,5 @@ Este projeto foi desenvolvido por: **Jean Vítor**.
 
 
 
-- [LinkedIn](https://www.linkedin.com/in/devjvs/)
+- [LinkedIn](www.linkedin.com/in/devjeanvitor)
 - [GitHub](https://github.com/DevJeanVitor)
