@@ -2,6 +2,11 @@
 
 Este projeto foi desenvolvido como parte das atividades da disciplina de **Introdução as Tecnologias Web**. Trata-se de uma aplicação front-end que simula uma loja virtual completa para a venda de componentes eletrônicos, como placas Arduino e dispositivos para IoT (Internet of Things).
 
+## Projeto Online
+
+Visite o site abaixo para testar as funcionalidades do carrinho de compras e simular um pedido em tempo real.
+
+**[Clique aqui para acessar o TechCircuito](https://devjeanvitor.github.io/Projeto_E-commerce/)**
 ## Demonstração em Vídeo
 
 O vídeo a seguir demonstra o fluxo completo de navegação do usuário no site, desde a escolha dos produtos até a finalização da compra.
