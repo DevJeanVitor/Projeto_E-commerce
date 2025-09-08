@@ -4,7 +4,7 @@ Este projeto foi desenvolvido como parte das atividades da disciplina de **Intro
 
 ## Projeto Online
 
-Visite o site abaixo para testar as funcionalidades do carrinho de compras e simular um pedido em tempo real.
+Visite o site abaixo para testar as funcionalidades do e-commerce.
 
 **[Clique aqui para acessar o e-commerce TechCircuito](https://devjeanvitor.github.io/Projeto_E-commerce/)**
 ## Demonstração em Vídeo
