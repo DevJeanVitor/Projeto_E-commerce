@@ -12,7 +12,7 @@ Visite o site abaixo para testar as funcionalidades do e-commerce.
 O vídeo a seguir demonstra o fluxo completo de navegação do usuário no site, desde a escolha dos produtos até a finalização da compra.
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/0c283be1-094d-4ec1-bbaf-1654213f202b" controls="controls" style="max-width: 800px;"></video>
+  <video src="https://github.com/user-attachments/assets/631e9daa-0687-4d50-94f8-9b3eddd78b18" controls="controls" style="max-width: 800px;"></video>
 </div>
 
 ## Funcionalidades Principais
