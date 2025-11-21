@@ -1,82 +1,80 @@
-# Projeto INTW: E-commerce TechCircuito
+# INTW Project: E-commerce TechCircuito
 
-Este projeto foi desenvolvido como parte das atividades da disciplina de **Introdução as Tecnologias Web**. Trata-se de uma aplicação front-end que simula uma loja virtual completa para a venda de componentes eletrônicos, como placas Arduino e dispositivos para IoT (Internet of Things).
+This project was developed as part of the activities of the Introduction to Web Technologies course. It is a front-end application that simulates a complete virtual store for the sale of electronic components, such as Arduino boards and devices for IoT (Internet of Things).
 
-## Aplicação ao Vivo
+## Live Application
 
-Visite o site abaixo para testar as funcionalidades do e-commerce.
+Visit the website below to test the e-commerce features.
 
-**[Clique aqui para acessar o e-commerce](https://devjeanvitor.github.io/Projeto_E-commerce/)**
-## Demonstração em Vídeo
+**[Click here to access the e-commerce site](https://devjeanvitor.github.io/Projeto_E-commerce/)**
+## Video Demonstration
 
-O vídeo a seguir demonstra o fluxo completo de navegação do usuário no site, desde a escolha dos produtos até a finalização da compra.
+The following video demonstrates the complete user navigation flow on the website, from product selection to checkout.
 
 <div align="center">
   <video src="https://github.com/user-attachments/assets/631e9daa-0687-4d50-94f8-9b3eddd78b18" controls="controls" style="max-width: 800px;"></video>
 </div>
 
-## Funcionalidades Principais
+## Key Features
 
-O sistema foi projetado para oferecer uma experiência de compra intuitiva e possui as seguintes funcionalidades:
+The system was designed to offer an intuitive shopping experience and has the following features:
 
-- **Visualização de Produtos:** Apresenta um catálogo de produtos organizados em categorias na página inicial.
-- **Adição ao Carrinho:** Permite que o usuário adicione produtos ao carrinho de compras diretamente da vitrine.
-- **Gerenciamento do Carrinho:**
-  - Visualização dos itens adicionados.
-  - Ajuste da quantidade de cada item.
-  - Remoção de itens.
-  - Cálculo automático do subtotal e do valor total da compra.
-- **Formulário de Checkout:** Coleta de informações de contato e endereço de entrega do cliente.
-- **Validação de Formulário:** Garante que os campos essenciais sejam preenchidos antes de prosseguir.
-- **Simulação de Pagamento:** Apresenta uma tela de pagamento e simula a conclusão da transação.
-- **Confirmação de Pedido:** Exibe uma mensagem de sucesso ao final do processo, juntamente com um código de rastreio fictício.
+- **Product View:** Displays a catalog of products organized into categories on the home page.
+- **Add to Cart:** Allows users to add products to their shopping cart directly from the storefront.
+- **Cart Management:**
+  - View added items.
+  - Adjust the quantity of each item.
+  - Remove items.
+  - Automatic calculation of the subtotal and total purchase amount.
+- **Checkout Form:** Collects customer contact information and delivery address.
+- **Form Validation:** Ensures that essential fields are filled in before proceeding.
+- **Payment Simulation:** Displays a payment screen and simulates the completion of the transaction.
+- **Order Confirmation:** Displays a success message at the end of the process, along with a fictitious tracking code.
 
-## Layout da Aplicação
+## Application Layout
 
-A seguir, algumas capturas de tela que ilustram as principais seções do site.
+Below are some screenshots illustrating the main sections of the website.
 
-#### Página Inicial (Vitrine de Produtos)
-*Descrição: A página principal exibe os produtos disponíveis para compra.*
+#### Home Page (Product Showcase)
+*Description: The main page displays the products available for purchase.*
 ![Página Inicial](https://github.com/user-attachments/assets/7aa4456f-7a03-4787-a825-b20778bc9401)
 
-#### Carrinho de Compras
-*Descrição: O carrinho permite ao usuário visualizar e gerenciar os produtos selecionados antes de finalizar a compra.*
+#### Shopping Cart
+*Description: The cart allows the user to view and manage selected products before completing the purchase.*
 ![Carrinho de Compras](https://github.com/user-attachments/assets/3dd8325d-6bee-4efb-83ea-67fb3accd664)
 
-#### Formulário de Compra (Checkout)
-*Descrição: Etapa onde o usuário insere seus dados para contato e entrega.*
+#### Purchase Form (Checkout)
+*Description: Step where the user enters their contact and delivery details.*
 ![Formulário de Checkout](https://github.com/user-attachments/assets/e67733a3-f65b-41c5-8b26-04a2a02bf72c)
 
-#### Confirmação de Pagamento
-*Descrição: Modal exibido após a conclusão bem-sucedida do pedido.*
+#### Payment Confirmation
+*Description: Modal displayed after successful completion of the order.*
 ![Confirmação de Pagamento](https://github.com/user-attachments/assets/cc826ef5-eee2-4d42-9b16-00025cd33653)
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias web:
+The project was developed using the following web technologies:
 
-- **HTML5:** Para a estruturação semântica do conteúdo.
-- **CSS3:** Para a estilização e o design responsivo da interface.
-- **JavaScript:** Para toda a lógica de interatividade, manipulação do DOM, gerenciamento do carrinho e validações.
+- **HTML5:** For semantic content structuring.
+- **CSS3:** For styling and responsive interface design.
+- **JavaScript:** For all interactivity logic, DOM manipulation, cart management, and validations.
 
-## Como Executar o Projeto
+## How to Run the Project
 
-1.  **Clone o repositório:**
+1.  **Clone the repository:**
     ```bash
     git clone (https://github.com/DevJeanVitor/Projeto_E-commerce.git)
     ```
-2.  **Acesse a pasta do projeto:**
+2.  **Access the project folder:**
     ```bash
     cd Projeto_E-commerce
     ```
-3.  **Abra o arquivo principal:**
-    Abra o arquivo `index.html` em seu navegador de preferência.
+3.  **Open the main file:**
+     Open the `index.html` file in your preferred browser.
 
-## Autor
+## Author
 
-Este projeto foi desenvolvido por: **Jean Vítor**.
-
-
+This project was developed by: **Jean Vítor**.
 
 - [LinkedIn](https://www.linkedin.com/in/devjeanvitor)
 - [GitHub](https://github.com/DevJeanVitor)
